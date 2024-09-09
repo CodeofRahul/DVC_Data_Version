@@ -12,8 +12,8 @@ data = {
 df = pd.DataFrame(data)
 
 # # adding new row to df for V2
-# new_row_loc = {'Name' : 'V2', 'Age' : 20, 'city' : 'City1'}
-# df.iloc[len(df.index)] = new_row_loc
+new_row_loc = {'Name' : 'gf1', 'Age' : 20, 'city' : 'City1'}
+df.loc[len(df.index)] = new_row_loc
 
 
 # # adding new row to df for V3
